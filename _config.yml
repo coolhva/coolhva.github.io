@@ -30,7 +30,7 @@ linkedin_username: henkva
 #xing_username: jekyll
 #pinterest_username: jekyll
 youtube_username: coolhva@gmail.com
-googleplus_username: +coolhva
+#googleplus_username: +coolhva
 #orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
@@ -52,7 +52,7 @@ googleplus_username: +coolhva
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | 
-  Technology is my passion and after working in IT for a long time I now focus on Cyber Security, please check out my linked in for my corporate profile.
+  Technology is my passion and after working in IT for a long time I now focus on Cyber Security, please check out my LinkedIn for my corporate profile.
 
   This page is mainly about my personal interests and hobby projects.
 
@@ -61,7 +61,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Unifi USG with KPN fiber (FTTH), IPTV and IPv6
+        title: USG with KPN FTTH
         link: https://coolhva.github.io/usg-kpn-ftth/posts/unifi-security-gateway-kpn-ftth-iptv-ipv6/
         link_text: Dutch manual
         quote: >
@@ -70,38 +70,9 @@ content:
           With KPN, a dutch internet provider, you can use your own hardware but that was not easy as there are a lot of moving parts.
           For my own network at home I managed to get it working with the Unifi Security Gateway and I shared my configuration with others.
           Still a lot of questions came from people that were having challenges and for them I wrote a (Dutch) manual.
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
